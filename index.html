@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/logo.png" />
+  <link rel="apple-touch-icon" href="/logo.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#9333ea" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Qtutors" />
+  <title>Qtutors - Online NAPLAN, 11+, GCSE & SAT Preparation Classes</title>
+  <meta name="description"
+    content="Join our expert-led online coaching for NAPLAN, 11+, GCSE, SAT & IGCSE exams. Free trial class available. Improve your scores with personalized tutoring." />
+  <meta name="keywords"
+    content="NAPLAN preparation, 11+ exam coaching, GCSE tutoring, SAT classes, IGCSE online, international exam prep, online tutoring" />
+  <meta name="author" content="Global Exam Prep Academy" />
+  <meta property="og:title" content="Online NAPLAN, 11+, GCSE & SAT Preparation Classes | Expert Tutors" />
+  <meta property="og:description"
+    content="Join our expert-led online coaching for NAPLAN, 11+, GCSE, SAT & IGCSE exams. Free trial class available. Improve your scores with personalized tutoring." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Online NAPLAN, 11+, GCSE & SAT Preparation Classes | Expert Tutors" />
+  <meta name="twitter:description"
+    content="Join our expert-led online coaching for NAPLAN, 11+, GCSE, SAT & IGCSE exams. Free trial class available. Improve your scores with personalized tutoring." />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    // Register service worker for PWA support
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').catch(err => 
+        console.log('Service Worker registration failed:', err)
+      );
+    }
+  </script>
+</body>
+
+</html>
