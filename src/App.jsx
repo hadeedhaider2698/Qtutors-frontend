@@ -92,7 +92,7 @@ function App() {
     setSubmitStatus(null);
 
     try {
-      const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:3001';
+      const backendUrl = import.meta.env.VITE_BACKEND_URL || 'https://qtutors-backend.onrender.com';
 
       const response = await axios.post(`${backendUrl}/api/submit-form`, {
         name: formData.name,
